@@ -10,4 +10,4 @@
 * Which parts of the challenge did you enjoy?
 * Which parts of the challenge did you find tedious?
 
-<!-- Add your reflection here. Remove the comment markers -->
+I enjoyed learning about wireframing and think it'll definitely make planning my next project a lot easier and save me a lot of time dabbling with css to make my divs line up properly, etc.  I also appreciate that I have some new tools in my browser like wirify that I can use for my next project.
