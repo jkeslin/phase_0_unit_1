@@ -9,6 +9,7 @@
   * Performance Optimization 
 
 * What's the quick key for your OS to spawn the Dev Tools inspector?
+Alt + Command + I
 
 * Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
   * What is the current background color for the page?  (Surprisingly, it's not just black!)
@@ -22,6 +23,14 @@
 
 * Go to www.ticketswizard.com and analyze the page.  
   * What is the largest image on the website? 
+  lg-share-en.gif
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
+  Go to the network tab and clear the timeline.  Then refresh the page and reorder the list by size of content.  The largest image was lg-share-en.gif.
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
+I'm not sure what is the "easiest", but important things that dev tools suggests are optimizing images, moving css to header instead of inline css, and leveraging browser caching for static images.
+
+
+
+
+
