@@ -2,7 +2,7 @@
 
 * What is your biggest time management challenge with during Phase 0? 
 
-My biggest time management challenge during Phase 0 is balancing my dev bootcamp work with my current job. I'm often exhausted after a day of teaching and find it hard to sit down and plug away at a DBC challenge. I also feel quilt for chosing to work on DBC instead of writing a lesson for the next day, or grading papers or whatever might be necessary for school. This usually just ends with me procrastinating. I have a bad habit of thinking that the weekend will be enough time to get caught up with everything, but it's really not enough time if I want to have a healthy work/life balance.
+My biggest time management challenge during Phase 0 is balancing my dev bootcamp work with my current job. I'm often exhausted after a day of teaching and find it hard to sit down and plug away at a DBC challenge. I also feel guilt for chosing to work on DBC instead of writing a lesson for the next day, or grading papers or whatever might be necessary for school. This usually just ends with me procrastinating. I have a bad habit of thinking that the weekend will be enough time to get caught up with everything, but it's really not enough time if I want to have a healthy work/life balance.
 
 * How will you combat that? 
 
