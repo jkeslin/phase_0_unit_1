@@ -8,6 +8,10 @@
   * Javascript Debugging
   * Performance Optimization 
 
+The elements tab allows realtime editing of HTML and CSS
+Javascript debugging is done in the sources tab
+Performanace Optimization can be done in the Network and PageSpeed sections.
+
 * What's the quick key for your OS to spawn the Dev Tools inspector?
 
 Alt + Command + I
@@ -20,7 +24,12 @@ Alt + Command + I
   * Now take a screenshot of your new (and maybe not so improved) design.  It should match this screenshot: http://postimg.org/image/5ak1jkpl5/
   * Upload your own image to the imgs directory in the `1_Chrome_Dev_Tools` directory.  It should match the image above. The last nav link in the image above is black because the mouse was hovering there when the screenshot was taken. Do the same, and don't take a screenshot of your whole desktop, just the browser window. (This is part of the challenge.)
 
+(for my screenshot I used the chrome plug-in "awesome screenshot" and I had the hover state forced for the profile list element)
+
+
 * For the postmachina website, why can't you tweak the color of the text "The most important things are not things"?  Please explain.
+
+Because entire area is one static image.  It is not text.
 
 * Go to www.ticketswizard.com and analyze the page.  
   * What is the largest image on the website? 
@@ -35,6 +44,6 @@ Go to the network tab and clear the timeline.  Then refresh the page and reorder
 I'm not sure what is the "easiest", but important things that dev tools suggests are optimizing images, moving css to header instead of inline css, and leveraging browser caching for static images.
 
 
-
+![my image](/imgs/postmachina.png)
 
 
