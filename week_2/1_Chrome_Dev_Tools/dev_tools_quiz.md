@@ -44,6 +44,6 @@ Go to the network tab and clear the timeline.  Then refresh the page and reorder
 I'm not sure what is the "easiest", but important things that dev tools suggests are optimizing images, moving css to header instead of inline css, and leveraging browser caching for static images.
 
 
-![my image](/imgs/postmachina.png)
+![my image](https://github.com/jkeslin/phase_0_unit_1/blob/master/week_2/1_Chrome_Dev_Tools/imgs/Postmachina.png)
 
 
