@@ -10,7 +10,7 @@ I need to make an effort to put time aside each day to devote to DBC and not thi
 
 * What techniques will you try?
 
-I don't have a lot of experience meditating but I can appreciate taking time to be mindful and give my mind a rest.  I need to change my mindset that being idle is wasting time, when in fact, it can be a form of productivity if it allows me to be in a better mindset the rest of the day.  I also like the idea of focusing on the MVP or "Minimum Viable Product" and starting small.  I've noticed my most productive days are the ones where I start the day with a small project continue from there.  Sometimes when I have so much to do I to get overwhelmed and become paralyzed and end up doing nothing.  I need to focus on accomplishing one small goal and letting it build from there.
+I don't have a lot of experience meditating but I can appreciate taking time to be mindful and give my mind a rest.  I need to change my mindset that being idle is wasting time, when in fact, it can be a form of productivity if it allows me to be in a better mindset the rest of the day.  I also like the idea of focusing on the MVP or "Minimum Viable Product" and starting small.  I've noticed my most productive days are the ones where I start the day with a small project continue from there.  Sometimes when I have so much to do I get overwhelmed and become paralyzed and end up doing nothing.  I need to focus on accomplishing one small goal and letting it build from there.
 
 * What is your overall plan for Phase 0?
 
