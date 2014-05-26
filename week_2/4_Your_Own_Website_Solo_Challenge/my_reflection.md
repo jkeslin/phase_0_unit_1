@@ -1,6 +1,6 @@
 # U1.W2: Design, User Experience, and creating your website Reflection
 
-My Website url: <!-- Website URL here (remove comment) -->
+My Website url: http://jkeslin.github.io/index.html
 
 Discuss the following:
 * What did you learn about design and user experience? 
