@@ -39,7 +39,7 @@ undo changes and commits
 remove files from the staging area
 
 #### status
-view the status of your files
+view the status of your files.
 
 ## Release 4: Git Workflow
 
