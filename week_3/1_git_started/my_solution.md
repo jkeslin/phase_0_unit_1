@@ -4,39 +4,51 @@ Define the following commands and describe how they work/what they do.
 
 #### add
 <!-- Your defnition here -->
+adds file contents to the staging area
 
 #### branch
 <!-- Your defnition here -->
+list, create and manage working contexts
 
 #### checkout
 <!-- Your defnition here -->
+switch to new branch
 
 #### clone
 <!-- Your defnition here -->
+copy a git repository so you can add to it
 
 #### commit
 <!-- Your defnition here -->
+records a snapshot of the staging area
 
 #### fetch
 <!-- Your defnition here -->
+download new branches and data from a remote repository
 
 #### log
 <!-- Your defnition here -->
+show commit history of a branch
 
 #### merge
 <!-- Your defnition here -->
+merge a branch context into your current one
 
 #### pull
 <!-- Your defnition here -->
+fetch from a remote repo and try to merge into the current branch
 
 #### push
 <!-- Your defnition here -->
+push your new branches and data to a remote repository
 
 #### reset
 <!-- Your defnition here -->
+undo changes and commits
 
 #### rm
 <!-- Your defnition here -->
+remove files from the staging area
 
 #### status
 

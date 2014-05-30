@@ -152,8 +152,8 @@ this.attackXY(52,51);
  
 // Per Release 3:
 
-//"this" is refering to the object that we're manipulating, in this case, the soldier.
-//the "()" are for entering the parameters of the method
+//"this" is refering to this particular instance of the object that we're manipulating, in this case, the soldier.
+//the "()" are for entering the parameters of the function
 //the semicolons are to separate commands. However, they are only mandatory if there is no line break between them.
 
 // Reflection:
