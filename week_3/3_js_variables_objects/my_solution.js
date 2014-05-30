@@ -17,12 +17,12 @@ members = ["John", "Paul", "George", "Mary"]
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
+// The assert function seemed odd to me at first and the idea of test driven 
+// development was definitely something new to me.  Because of my lack of experience with
+// functions in javascript I didn't understand the connection between the assert function
+// and all the tests that follow.  I do now!  I like the idea of having a function that can be universal in a sense, like
+// how the assert function can test whether or not a series of things are true and follow the same process each time.
+// Seems like a powerful way to write efficient code and save time.
 
 
 // __________________________________________
