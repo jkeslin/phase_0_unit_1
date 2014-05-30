@@ -65,3 +65,4 @@ remove files from the staging area
 3. Cause (explain the error)
 
 ## Release 6: Reflection
+Using the commandline for git is a little scary at first because it feels a little dark and mysterious and that you might do something catastrophic like lose all of your work or who knows what. I'd reached a nice comfortzone with the github app, but I understand the value of being able to use git in the terminal.  I'm starting to get the hang of it, but still need online resources as refreshers when I go back to the terminal.
