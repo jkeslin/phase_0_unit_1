@@ -16,22 +16,31 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
-
-
-
-
+adam = {}
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+children = {carson: {name: "Carson"},
+            carter: {name: "Carter"},
+            colton: {name: "Colton"}
+          }
+terah.children = children;
+adam.children = terah.children
 
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// At first I just thought, "We're just making another object named Adam? That's too easy." 
+// And then looking at the tests closer I saw it's going to be more complicated than that. AND there
+// must be a way to push new data into an existing object and manipulate the data inside without just rewriting the object.
+// After some research, I tested it out in the console.  And saw that when I looked at the object after pushing new info into it
+// the order of the information was now alphabetical.  I was concerned about this, but then looking closer at the tests I realized it wouldn't make any difference.
+// I dabbled with the idea of doing something like, "terah.children.carson.name = "Carson"" but that didn't work.
+// I love that objects can be elements in other objects! Oh, the possibilities!
 
 
 // __________________________________________
