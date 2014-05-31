@@ -62,6 +62,14 @@ function client(name, age, quote) {
 
 // 4. "But wait, there's more!"
 
+function client(name, age, quote) {
+   this.name = name;
+   this.age = age;
+   this.quote = quote;
+   this.showQuote = function(){
+            console.log(this.quote);
+        };
+   };
 
 
 // 5.  ** BONUS **
