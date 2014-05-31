@@ -103,6 +103,7 @@ function duel(){
 	}else{
 		winterfell.ruler = joffrey;
 	}
+	this.title = "King of the Realm"
 	delete this.enemy.title
 	delete this.enemy.position
 	this.enemy = "vanquished"
