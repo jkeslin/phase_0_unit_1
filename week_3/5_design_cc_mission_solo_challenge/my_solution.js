@@ -75,6 +75,62 @@ console.log(nedStark.quote)
 
 
 // Refactored Code
+position = {}
+ruler = {}
+winterfell = {
+	name: "Winterfell",
+	ruler: ruler,
+	position: {x: 100, y:100}
+}
+
+kingsLanding = {
+	name: "King's Landing",
+	ruler: ruler,
+	position: {x: 20, y: 30}
+}
+
+function movechar(x, y){
+	this.position.x = x
+	this.position.y = y
+}
+
+//need to include changing the ruler of kings landing to Ned Stark
+function duel(){
+	console.log("Sorry, " + this.enemy.name + " but your reign as " + this.enemy.title + " has come to an end!")
+	delete this.enemy.title
+	delete this.enemy.position
+	this.enemy = "vanquished"
+}
+//can add the enemy properties later to avoid having to create an empty joffrey object to start below
+function Character(name, title, home, position, quote){
+	this.name = name;
+	this.title = title;
+	this.home = home;
+	this.position = position;
+	this.quote = quote;
+	this.movechar = movechar;
+	this.duel = duel;
+}
+
+var nedStark = new Character("Ned Stark", "King of Winterfell", winterfell, winterfell.position, "I am the one true King of the 7 Kingdoms!")
+var joffrey = new Character("Prince Joffrey", "Prince of the South",kingsLanding, kingsLanding.position,"I'm an evil little weirdo!")
+
+winterfell.ruler = nedStark;
+kingsLanding.ruler = joffrey;
+
+nedStark.enemy = joffrey;
+joffrey.enemy = nedStark;
+
+	//travel to King's Landing
+nedStark.movechar(20, 30)
+	//slay Prince Joffrey
+nedStark.duel()
+	//travel back to Winterfell
+nedStark.movechar(100,100)
+	//proclaim your right to the throne!
+console.log(nedStark.quote)
+	//add log to show the new rulers of the realm
+console.log("Ruler of King's Landing: " + kingsLanding.ruler.name + ". Ruler of Winterfell: " + winterfell.ruler.name)
 
 
 
