@@ -76,6 +76,7 @@ console.log(nedStark.quote)
 
 // Refactored Code
 position = {}
+//change from initial code: define ruler as blank object. Insert ruler later, after characters have been defined.
 ruler = {}
 winterfell = {
 	name: "Winterfell",
@@ -94,14 +95,19 @@ function movechar(x, y){
 	this.position.y = y
 }
 
-//need to include changing the ruler of kings landing to Ned Stark
+//change from initial code: include changing the ruler of the city to the victor of the duel
 function duel(){
 	console.log("Sorry, " + this.enemy.name + " but your reign as " + this.enemy.title + " has come to an end!")
+	if(this.name === "Ned Stark"){
+		kingsLanding.ruler = nedStark;
+	}else{
+		winterfell.ruler = joffrey;
+	}
 	delete this.enemy.title
 	delete this.enemy.position
 	this.enemy = "vanquished"
 }
-//can add the enemy properties later to avoid having to create an empty joffrey object to start below
+//change from initial code: can add the enemy properties later to avoid having to create an empty joffrey object to start below
 function Character(name, title, home, position, quote){
 	this.name = name;
 	this.title = title;
@@ -129,8 +135,8 @@ nedStark.duel()
 nedStark.movechar(100,100)
 	//proclaim your right to the throne!
 console.log(nedStark.quote)
-	//add log to show the new rulers of the realm
-console.log("Ruler of King's Landing: " + kingsLanding.ruler.name + ". Ruler of Winterfell: " + winterfell.ruler.name)
+	//change from initial code: add log to show the new rulers of each city in the realm.
+console.log("Ruler of King's Landing: " + kingsLanding.ruler.name + ". Ruler of Winterfell: " + winterfell.ruler.name + ".")
 
 
 
