@@ -32,3 +32,20 @@
 //else
 //calculate the "median" as the sum of the value of the index at "half" minus 1, and "half", and divide by 2.
 //print results of "median"
+
+//
+//Reflection
+//
+//What was this experience like?
+//Spliting up a project like this was something new to me.  I'm curious how often it works like this in the 
+//tech world.  Luckily I was in a really great group who did a good job of creating and meeting deadlines.  
+//They also did a fantastic job of communicating their work to the next person and writing things in a way that
+//we can all work with.
+//
+//Was your group successful in passing the tests?
+//Yes!
+//
+//What did you learn about writing user stories, pseudocoding, writing code, refactoring?
+//Having to write pseudocode knowing that it was for someone else's interpretation and not my own forced me 
+//to consider the little details of what I was writing and whether or not they really made sense or had enough
+//information, or too much.  I can probably write better pseudocode now because of this experience.
