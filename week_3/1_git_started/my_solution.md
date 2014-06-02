@@ -51,13 +51,26 @@ undo changes and commits
 remove files from the staging area
 
 #### status
-
+show current status of repository
 
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+Here is the process for "git push"
+1.  Create a repository on GitHub.
+2.  Create a folder locally that will be used for your repository using "mkdir"
+3.  run "git init"
+4.  to commit changes use "git commmit -m"
+5.  To push these changes to GitHub use "git remote add origin..."
+6.  Now use "git push"
+
 - Fetch changes
+1.  Use "git fetch" to get changes from a remote repository
+2.  Then use "git merge" to sync
+
 - Commit locally
+1.  Start with "git add" to chose a file for commit
+2.  Use "git commit -m" or "git commit -a -m"
 
 ## Release 5: Errors you encountered
 1. Error
