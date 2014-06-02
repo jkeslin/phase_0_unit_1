@@ -145,11 +145,11 @@ console.log("Ruler of King's Landing: " + kingsLanding.ruler.name + ". Ruler of 
 
 
 // Reflection
-// 
-// 
-// 
-// 
-// 
-// 
+// This challenge was a lot of fun.  I spent the most time working on this section of all of this week's challenges.  Partly because it was a lot of fun to create
+// but also because I went into it not really understanding objects and how to have functions embedded in them.  You can tell from my pseudocode and how different it is
+// from my final result that I learned a lot as I was going along.  There are still a couple issues left that I could improve on.  I made it so either Joffrey or Ned Stark can 
+// win the duel, but the steps that follow only apply to Ned Stark winning the duel.  If I want to get real fancy, I could have a prompt that has the user determines, where ned stark travels to, and who wins the duel, 
+// and have the code respond appropriately from there.  I could also add an if statement that checks to see if Ned and Joffrey are within a certain range of each other before you try to 
+// have them duel.  
 // 
 // 
